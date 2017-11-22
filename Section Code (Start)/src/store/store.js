@@ -18,11 +18,19 @@ export const store = new Vuex.Store({
 
         },
         stringCounter : state => {
-        return state.counter + 'click';
+        return state.counter + " " + 'click';
 
-    //getters has been implemented sorry... 
+    //getters has been implemented sorry...
 }
+    },
+mutations: {
+    increment: state => {
+        state.counter++;
+    },
+    decrement: state => {
+        state.counter--;
     }
+}
 });
 
 

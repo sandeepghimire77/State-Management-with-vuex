@@ -15,9 +15,11 @@ import {mapGetters} from 'vuex';
                 //    return this.$store.getters.doubleCounter;
                //  }
            // }
-           computed: mapGetters ([
+           computed: {
+           ...mapGetters ([
            'doubleCounter',
            'stringCounter'
            ])
+           }
     }
 </script>
