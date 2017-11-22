@@ -19,6 +19,8 @@ export const store = new Vuex.Store({
         },
         stringCounter : state => {
         return state.counter + 'click';
+
+    //getters has been implemented sorry... 
 }
     }
 });
