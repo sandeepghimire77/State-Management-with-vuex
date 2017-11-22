@@ -27,7 +27,7 @@
 
         components: {
             appCounter: Counter,
-         /  appResult: Result,
+         
             appAnotherResult: AnotherResult,
             appPractise: Practise,
             appAnotherCounter: AnotherCounter
