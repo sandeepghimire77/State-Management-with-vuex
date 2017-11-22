@@ -13,11 +13,11 @@
     export default {
         methods: {
             increment() {
-                this.$store.commit('increment')
+                this.$store.commit('increment');
             },
             decrement() {
-                this.$store.state.counter--;
-               // this.$store.getters.doubleCounter;
+               this.$store.commit('decrement');
+
             }
         }
     }

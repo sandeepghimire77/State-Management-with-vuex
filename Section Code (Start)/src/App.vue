@@ -5,11 +5,12 @@
                 <h1>Vuex</h1>
                 <app-result ></app-result>
                 <app-another-result ></app-another-result>
+                <app-another-counter> </app-another-counter>
                 <hr>
                 <app-counter ></app-counter>
                 <hr>
                 <app-practise> </app-practise>
-                <app-another-counter> </app-another-counter>
+
             </div>
         </div>
     </div>
@@ -19,7 +20,7 @@
     import Counter from './components/Counter.vue';
 
      import AnotherResult from './components/AnotherResult.vue';
-     import AnotherCounter './components/AnotherCounter.vue';
+     import AnotherCounter from './components/AnotherCounter.vue';
      import Practise from './components/practise.vue';
 
 
@@ -27,7 +28,7 @@
 
         components: {
             appCounter: Counter,
-         
+
             appAnotherResult: AnotherResult,
             appPractise: Practise,
             appAnotherCounter: AnotherCounter
