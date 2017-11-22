@@ -14,15 +14,23 @@ export const store = new Vuex.Store({
         doubleCounter: state => {
         return state.counter*2;
 
-       // return state.counter = state.counter*2;
+// return state.counter = state.counter*2;
 
-        },
-        stringCounter : state => {
-        return state.counter + 'click';
+},
+stringCounter : state => {
+    return state.counter + " " + 'click';
 
-    //getters has been implemented sorry... 
+    //getters has been implemented sorry...
 }
+},
+mutations: {
+    increment: state => {
+        state.counter++;
+    },
+    decrement: state => {
+        state.counter--;
     }
+}
 });
 
 

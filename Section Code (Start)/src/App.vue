@@ -5,10 +5,12 @@
                 <h1>Vuex</h1>
                 <app-result ></app-result>
                 <app-another-result ></app-another-result>
+                <app-another-counter> </app-another-counter>
                 <hr>
                 <app-counter ></app-counter>
                 <hr>
                 <app-practise> </app-practise>
+
             </div>
         </div>
     </div>
@@ -16,17 +18,20 @@
 
 <script>
     import Counter from './components/Counter.vue';
-    import Result from './components/Result.vue';
+
      import AnotherResult from './components/AnotherResult.vue';
+     import AnotherCounter from './components/AnotherCounter.vue';
      import Practise from './components/practise.vue';
+
 
     export default {
 
         components: {
             appCounter: Counter,
-            appResult: Result,
+
             appAnotherResult: AnotherResult,
             appPractise: Practise,
+            appAnotherCounter: AnotherCounter
         }
     }
 </script>
